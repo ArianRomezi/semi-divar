@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(234, 234, 234);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 45px;
+  margin-left: 40px;
+}
+.header div {
+  display: flex;
+}
+.header span {
+  display: flex;
+  align-items: center;
+  color: grey;
+  height: 50px;
+}
+.header span p {
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+.button {
+  color: #fff;
+  background-color: #a62626;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  color: grey;
+  height: 50px;
+  margin-right: 5px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.drop_down_wraper {
+  position: relative;
+}
+.drop_down {
+  position: absolute;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  top: 50px;
+  outline-color: rgb(51, 153, 255);
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-right: 10px;
+}
+.drop_down button {
+  border: none;
+  color: grey;
+  background-color: #fff;
+  cursor: pointer;
+}
+.drop_down img {
+  color: grey;
+  width: 20px;
+}
+
+.drop_down span {
+  border-bottom: 1px solid grey;
+  border-image: linear-gradient(to left, grey 50%, transparent 100%) 100% 1;
+  padding-right: 10px;
+  align-items: center;
+}
+.drop_down span :hover {
+  color: black;
+}
+.list:hover {
+  color: black;
+}
